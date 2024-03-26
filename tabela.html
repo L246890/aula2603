@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas2603</title>
+</head>
+
+<body>
+    <!--borde= espessura da bora/ cellpadding e cellspacing= espaços entre letras-->
+    <table border="1" cellpadding="5" cellspacing="5">
+        <thead>
+            <tr>
+                <th colspan="6">Avalições ADS 2024</th>
+            </tr>
+            <tr>
+                <th>Cidade</th>
+                <th>Nome</th>
+                <th>Prova 1</th>
+                <th>Prova 2</th>
+                <th>Trabalho</th>
+                <th>Foto</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <!--rowspan usado quando não for necessário informar duas vezes a mesma informação ex:erechim-->
+            <td rowspan="2"> <a href="https://www.pmerechim.rs.gov.br/" target="_blank"> Erechim</a></td>
+            <td>Pedro</td>
+            <td>10</td>
+            <td>9,5</td>
+            <td></td>
+            <td> <a href="https://www.pmerechim.rs.gov.br/" target="_blank"><img src="img/pessoa1.jpg" width="100"> </td></a>
+        </tr>
+        <tr>            
+            <!--<td>Erechim</td>-->
+            <td>João</td>
+            <td>10</td>
+            <td>8</td>
+            <td>9</td>
+            <td> <a href="https://www.pmerechim.rs.gov.br/" target="_blank"><img src="img/pessoa2.jpg" width="100"> </td></a>
+        </tr>
+        <tr>
+            <td>Barra Do Rio Azul</td>
+            <td>Lucas</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+            <td> <a href="https://www.pmerechim.rs.gov.br/" target="_blank"><img src="img/pessoa3.jpg" width="100"> </td></a>
+        </tr>
+        <tr>
+            <td>Aratiba</td>
+            <td>Antônia</td>
+            <td>5</td>
+            <td>7</td>
+            <td>6</td>
+            <td> <a href="https://www.pmerechim.rs.gov.br/" target="_blank"><img src="img/pessoa4.jpg" width="100"> </td></a>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2">Média por Avaliação</td>
+            <td>10</td>
+            <td>9</td>
+            <td>7</td>
+        </tr>
+    </tfoot>
+    </table>
+</body>
+
+</html>
